@@ -12,7 +12,6 @@ public class T3R1_7 {
 
         float num;
         float base;
-        float iva;
         double total;
 
 
@@ -24,9 +23,9 @@ public class T3R1_7 {
     
         total = (num * 1.21) ;
 
-        System.out.println("iva \t\t" + (total - num) + " EU ");
+        System.out.printf("iva \t\t" + (total - num) + " EU \n");
 
-        System.out.println("-----------------------");
+        System.out.println("---------------------------------");
 
         System.out.println("Total: \t\t" + total + " EU ");
 

@@ -23,7 +23,7 @@ public class T3R1_5 {
         ancho = entrada.nextDouble();
         
         area = largo*ancho;
-        System.out.printf("El área del este rectangulo es: %.3f" , area);
+        System.out.printf("El área del este rectangulo es: %.1f cm\u00B2" , area);
 
 
 

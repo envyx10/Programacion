@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class T3R1_1{
 
-    /*public static void main(String[] args) {
+    /*
+    public static void main(String[] args) {
 
         int num1 ;  // definimos la variable num1, esto es, le decimos a java que la variable se llama num1 y es de tipo int
         int num2 ;
         int resultado;
+
         String linea;
 
         System.out.println("Introduzca un número: ");
@@ -25,7 +27,8 @@ public class T3R1_1{
 
         System.out.println("Su resultado es: " + resultado);
 
-    }*/
+    }
+    */
 
     public static void main(String[] args) {
 

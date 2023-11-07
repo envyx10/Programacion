@@ -24,17 +24,17 @@ public class T3R1_2 {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-
+        
         double euros;
-        double pesetas;
+        int pesetas;
 
         System.out.println("Introduzca el valor que quiera convertir en euros: ");
 
         euros = entrada.nextDouble();
 
-        pesetas = euros * 166.3860;
+        pesetas = (int)(euros * 166.3860);
 
-        System.out.println("La conversión es: " + pesetas + " pesetas");
+        System.out.printf("La conversión es: " , pesetas , " pesetas");
 
 
 
